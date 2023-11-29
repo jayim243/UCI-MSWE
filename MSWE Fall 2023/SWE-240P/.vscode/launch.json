@@ -1,0 +1,93 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BSTToHeapTransformer",
+            "request": "launch",
+            "mainClass": "BSTToHeapTransformer",
+            "projectName": "SWE-240P_8f1116a1"
+        },
+        {
+            "type": "java",
+            "name": "binarySearchTree",
+            "request": "launch",
+            "mainClass": "binarySearchTree",
+            "projectName": "SWE-240P_8f1116a1"
+        },
+        {
+            "type": "java",
+            "name": "binarySearchTree",
+            "request": "launch",
+            "mainClass": "binarySearchTree",
+            "projectName": "SWE-240P-1_f25f805"
+        },
+        {
+            "type": "java",
+            "name": "BSTToHeapTransformer",
+            "request": "launch",
+            "mainClass": "BSTToHeapTransformer",
+            "projectName": "SWE-240P-1_f25f805"
+        },
+        {
+            "type": "java",
+            "name": "heapBuilder",
+            "request": "launch",
+            "mainClass": "heapBuilder",
+            "projectName": "SWE-240P-1_f25f805"
+        },
+        {
+            "type": "java",
+            "name": "binarySearchTree",
+            "request": "launch",
+            "mainClass": "binarySearchTree",
+            "projectName": "SWE-240P_f2378b69"
+        },
+        {
+            "type": "java",
+            "name": "BSTToHeapTransformer",
+            "request": "launch",
+            "mainClass": "BSTToHeapTransformer",
+            "projectName": "SWE-240P_f2378b69"
+        },
+        {
+            "type": "java",
+            "name": "heapBuilder",
+            "request": "launch",
+            "mainClass": "heapBuilder",
+            "projectName": "SWE-240P_f2378b69"
+        },
+        {
+            "type": "java",
+            "name": "heapBuilder",
+            "request": "launch",
+            "mainClass": "heapBuilder",
+            "projectName": "SWE-240P_8f1116a1"
+        },
+        {
+            "type": "java",
+            "name": "binarySearchTree",
+            "request": "launch",
+            "mainClass": "binarySearchTree",
+            "projectName": "SWE 240P_f18059dc"
+        },
+        {
+            "type": "java",
+            "name": "Assignment4",
+            "request": "launch",
+            "mainClass": "Assignment4",
+            "projectName": "SWE 240P_f18059dc"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
