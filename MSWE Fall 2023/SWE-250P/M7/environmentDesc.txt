@@ -1,0 +1,24 @@
+Node.js Version: v20.10.0
+Browser: Google Chrome, version 119.0.6045.200
+Operating System: Windows 11 Home, version 22H2
+Computer Architecture:
+Processor: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz 1.99 GHz
+RAM: 8.00 GB
+System Type: 64-bit operating system, x64-based processor
+
+To run and test the code: Go inside tsconfig.json and fill email user and email pass info for both imap and smtp.
+The pass should be 2-factor authentication from your gmail and it should be using an app password rather than the
+actual password so you will need to create an app password in your gmail. Inside M7, go into mailbag and then the 
+server directory, open up the terminal and run "npm run dev" which calls the scripts specified in package.json 
+which compiles ts to js code and starts up the server. Go to browser and search "localhost"
+
+New feature added: The old inbox was returning emails in order, but the top begins with newer emails given
+that the bottom email is the oldest email in the entire Inbox. I changed it so that it now returns sorted emails, but the top begins 
+with the most recent emails. This was implemented in IMAP.ts on line 153.
+
+AJAX enables asynchronous communication between the browser and the server. This means that data can be exchanged 
+with the server without reloading the entire web page. Since AJAX allows for partial updates of web pages, users 
+experience faster response times and smoother interactions. They don't have to wait for entire pages to reload 
+when performing actions like submitting forms or fetching new data. AJAX requests send and receive only the 
+necessary data, reducing the amount of data transferred between the client and server. This can lead to a decrease 
+in server load and bandwidth usage, making your web application more efficient.

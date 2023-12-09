@@ -1,0 +1,23 @@
+#title {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color:yellow;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: yellow;
+    background-color: red;
+}
+
+p {
+    color: red;
+}
+
+h3 a {
+    text-decoration: none;
+    color: yellow;
+}

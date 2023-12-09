@@ -1,0 +1,12 @@
+Node.js Version: v20.10.0
+Browser: Google Chrome, version 119.0.6045.200
+Operating System: Windows 11 Home, version 22H2
+Computer Architecture:
+Processor: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz 1.99 GHz
+RAM: 8.00 GB
+System Type: 64-bit operating system, x64-based processor
+
+To run and test the code: Inside M2, open the terminal and run "node server.js". This fires up the server using
+node.js. After firing up the server, open browser or choice(Google Chrome in my case) and search "localhost" or you
+can simply control click on the printed statement "http://localhost:80/" in the terminal. This assignment is just
+a static webpage as there is not javascript functionality on it.

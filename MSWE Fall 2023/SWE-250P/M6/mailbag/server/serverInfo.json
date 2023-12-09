@@ -1,0 +1,18 @@
+{
+  "smtp" : {
+    "host" : "smtp.gmail.com",
+    "port" : 465,
+    "auth" : {
+      "user" : "yimj3@uci.edu",
+      "pass" : ""
+    }
+  },
+  "imap" : {
+    "host" : "imap.gmail.com",
+    "port" : 993,
+    "auth" : {
+      "user" : "yimj3@uci.edu",
+      "pass" : ""
+    }
+  }
+}

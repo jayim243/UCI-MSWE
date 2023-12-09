@@ -1,0 +1,25 @@
+Node.js Version: v20.10.0
+Browser: Google Chrome, version 119.0.6045.200
+Operating System: Windows 11 Home, version 22H2
+Computer Architecture:
+Processor: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz 1.99 GHz
+RAM: 8.00 GB
+System Type: 64-bit operating system, x64-based processor
+
+To run and test the code: I could test my code using the node.js script written in the previous assignments such as M2.
+However, I can also run and test my webpage by using the live server extension from vscode(which basically does the same thing).
+After installing live server, select index.html or bundle.js in dest directory and launch server by pressing "Go Live"
+on bottom right of IDE. This essentially is the same if not easier way of running and testing server.
+
+This assignment, I used similar concepts to the previous M4 assignment such as interfaces. I implemented interfaces
+in typescript along with modularization. The base script is script.ts which gets converted to script.js during compilation.
+In package.json, I had a script when called by "npm build", it calls webpack and creates bundle.js which is then 
+outputted in dest specified in webpack.config.js. I also used optional parameters denoted by the "?" symbol. This means
+that some of the field attributes are optional when creating a class object. I demonstrated this in my recipe.ts where I
+create a recipe object.
+
+When compiling TypeScript to JavaScript, source maps can be generated. These maps allow developers to debug the TypeScript code
+directly in the browser or in debugging tools while seeing the original TypeScript source. Modern IDEs, such as
+Visual Studio Code, have excellent support for TypeScript. They provide features like real-time error highlighting,
+autocompletion, and integrated debugging tools. Traditional debugging techniques like adding console.log statements 
+to the TypeScript code can help inspect variables, object states, and control flow during runtime.

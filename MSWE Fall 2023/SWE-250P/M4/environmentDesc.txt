@@ -1,0 +1,18 @@
+Node.js Version: v20.10.0
+Browser: Google Chrome, version 119.0.6045.200
+Operating System: Windows 11 Home, version 22H2
+Computer Architecture:
+Processor: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz 1.99 GHz
+RAM: 8.00 GB
+System Type: 64-bit operating system, x64-based processor
+
+To run and test the code: I could test my code using the node.js script written in the previous assignments such as M2.
+However, I can also run and test my webpage by using the live server extension from vscode(which basically does the same thing).
+After installing live server, select index.html and launch server by pressing "Go Live" on bottom right of IDE. This
+essentially is the same if not easier way of running and testing server.
+
+For the most part, I translated my javascript code into typescript. Typescript uses static checking which constantly
+checks for data types and errors before runtime. This helps during the development process and catches errors before
+compliation. Along with static checking, we of course declare data types in typescript, ensuring that certain attributes
+must adhear to specific data types. I also added a script in package.json where "npm start" will run "tsc --watch".
+This constantly converts my typescript into javascript code and outputs it to the dest directory specified in tsconfig.json

@@ -1,0 +1,15 @@
+Node.js Version: v20.10.0
+Browser: Google Chrome, version 119.0.6045.200
+Operating System: Windows 11 Home, version 22H2
+Computer Architecture:
+Processor: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz 1.99 GHz
+RAM: 8.00 GB
+System Type: 64-bit operating system, x64-based processor
+
+I initialized this React project use Vite. To run and test the code: Inside M3, open the terminal and run 
+"npm run dev". This fires up the server using npm. After firing up the server, you can simply control click 
+on the printed statement "http://localhost:80/" in the terminal. 
+
+For this assignment, we had to implement React. I used modularization to create React modules and had App.jsx act as
+the module base. I also implemented a few interfaces for my React modules to ensure that functions adhear to certain
+types and fields. Lastly, I used React's use state to keep track of count and update the display.

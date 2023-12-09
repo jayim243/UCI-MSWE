@@ -1,0 +1,30 @@
+#title {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color:yellow;
+}
+
+.header {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  color: yellow;
+  background-color: red;
+}
+
+.header .sections {
+  border: 2px solid yellow;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+p {
+  color: red;
+}
+
+h1 a, h3 a {
+  text-decoration: none;
+  color: yellow;
+}

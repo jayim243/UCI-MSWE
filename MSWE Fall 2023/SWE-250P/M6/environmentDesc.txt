@@ -1,0 +1,28 @@
+Node.js Version: v20.10.0
+Browser: Google Chrome, version 119.0.6045.200
+Operating System: Windows 11 Home, version 22H2
+Computer Architecture:
+Processor: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz 1.99 GHz
+RAM: 8.00 GB
+System Type: 64-bit operating system, x64-based processor
+
+To run and test the code: Go inside tsconfig.json and fill email user and email pass info for both imap and smtp.
+The pass should be 2-factor authentication from your gmail and it should be using an app password rather than the
+actual password so you will need to create an app password in your gmail. Inside M6, go into mailbag and then the 
+server directory, open up the terminal and run "npm run dev" which calls the scripts specified in package.json 
+which compiles ts to js code and starts up the server. Download Curl, and in a seperate terminal run commands such as
+curl localhost/mailboxes, curl localhost/mailboxes/INBOX, curl localhost/messages/INBOX/1234...
+I also used https://www.gmass.co/smtp-test to test that my smtp send works.
+
+New feature added: The old inbox was returning emails in order, but the top begins with newer emails given
+that the bottom email is the oldest email in the entire Inbox. I changed it so that it now returns sorted emails, but the top begins 
+with the most recent emails. This was implemented in IMAP.ts on line 153.
+
+By leveraging stateless communication and resource-based interactions, REST allows for the easy distribution of 
+resources across multiple servers or services making it scalable. RESTful APIs are known for their simplicity and 
+uniformity. They use standard HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources, providing
+a consistent and predictable interface. RESTful web services use standard protocols like HTTP, which is supported 
+by a wide range of devices and platforms. This promotes interoperability, allowing different systems and 
+technologies to communicate seamlessly. REST is stateless, meaning that each request from a client to a server 
+contains all the information needed to understand and fulfill that request. This simplifies server implementation 
+and enhances reliability.
